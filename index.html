@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link rel="icon" type="image/x-icon" href="https://cdn.discordapp.com/attachments/1210307429645164594/1211059832115826698/6035640.ico?ex=65ecd25c&is=65da5d5c&hm=19c9f578ad5cca8dd1a97950a8aae8cc42a47b277a9a1952f16500069d16ce6d&">
+	<meta name="description" content="Activate your license.">
+
+    <title>made by boxakos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff; /* Adjust text color to ensure readability */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white for container */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 80%;
+            max-width: 400px;
+            text-align: center;
+        }
+        h2 {
+            margin-top: 0;
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 8px;
+        }
+        input[type="text"] {
+            width: calc(100% - 24px);
+            padding: 10px;
+            margin-top: 6px;
+            margin-bottom: 20px;
+            border: 1px solid #fff; /* Adjust border color to match text color */
+            border-radius: 4px;
+            box-sizing: border-box;
+            background-color: rgba(255,255,255, 0.1); /* Semi-transparent white for input background */
+            color: #fff; /* Adjust text color */
+        }
+		
+         button {
+            background-color: #007bff;
+            color: #fff; /* White text */
+            padding: 12px 24px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+            width: 100%;
+            margin-bottom: 10px; /* Reduced space between buttons */
+        }
+
+        button:hover {
+            background-color: #0056a3;
+        }
+        #error-msg {
+            color: #ff4500; /* Neon red color */
+            margin-top: 10px;
+        }
+        .additional-button {
+            margin-top: 15px; /* Reduced space between the main button and the additional button */
+        }
+		.neon-green {
+            color: #39ff14; /* Neon green color */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h2>Teapot</h2>
+    <form method="get" action="teapot.exe">
+        <label for="key">enter license here</label>
+        <input type="text" id="key" name="key" readonly value="                                 discord.gg/freeunban">
+        <button id="downloadButton" type="submit">Download</button>
+        
+    </form>
+   
+    <div id="error-msg"></div>
+		
+    </div>
+	
+</body>
+</html>
